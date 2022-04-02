@@ -3,6 +3,7 @@ import { ColorContext } from '../App';
 
 const GreenPage = () => {
     const Context = useContext(ColorContext);
+    console.log(Context);
     return(
         <div>
             {/* <h1>{Context}</h1> */}
